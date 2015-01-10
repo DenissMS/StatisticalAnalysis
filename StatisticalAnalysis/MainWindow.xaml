@@ -1,0 +1,52 @@
+﻿<Window xmlns:dxc="http://schemas.devexpress.com/winfx/2008/xaml/charts"  x:Class="StatisticalAnalysis.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:statisticalAnalysis="clr-namespace:StatisticalAnalysis"
+        Title="Статистика посещаемости сайта" Height="498" Width="875" Closing="Window_Closing">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="4*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Column="0">
+            <ListBox Name="Menu" FontSize="18" SelectedIndex="1" SelectionMode="Single">
+                <!--<ListBoxItem >General</ListBoxItem>-->
+                <ListBoxItem IsSelected="True">Посетители</ListBoxItem>
+                <ListBoxItem>Статистика</ListBoxItem>
+            </ListBox>
+        </Grid>
+        <Grid Column="1" Name="Content">
+            <StackPanel>
+                <Label Name="Caption" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,0,0,0" FontSize="18"/>
+                <StackPanel Name="GeneralPage"></StackPanel>
+                <StackPanel Name="VisitorsPage" Visibility="Visible">
+                    <DataGrid Name="VisitorsBase" ItemsSource="{Binding}" AutoGenerateColumns="False" SelectionMode="Single" BorderBrush="{x:Null}">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding (statisticalAnalysis:VisitorsBase+Visitor.Time)}" Header="Время" />
+                            <DataGridTextColumn Binding="{Binding (statisticalAnalysis:VisitorsBase+Visitor.Address)}" Header="Адрес" />
+                            <DataGridTextColumn Binding="{Binding (statisticalAnalysis:VisitorsBase+Visitor.Uri)}" Header="URL" />
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </StackPanel>
+                <StackPanel Name="StatisticsPage" Visibility="Collapsed">
+                    <dxc:ChartControl BorderBrush="{x:Null}">
+                        <dxc:ChartControl.Titles>
+                            <dxc:Title Content="Статистика посещаемости"/>
+                        </dxc:ChartControl.Titles>
+                        <dxc:ChartControl.CrosshairOptions>
+                            <dxc:CrosshairOptions ShowArgumentLabels="True" ShowValueLabels="True" ShowValueLine="True"/>
+                        </dxc:ChartControl.CrosshairOptions>
+                        <dxc:XYDiagram2D>
+                            <dxc:BarSideBySideSeries2D Name="Series" DisplayName="Просмотры" LabelsVisibility="True">
+                                <dxc:BarSideBySideSeries2D.Model>
+                                    <dxc:FlatBar2DModel/>
+                                </dxc:BarSideBySideSeries2D.Model>
+                            </dxc:BarSideBySideSeries2D>
+                        </dxc:XYDiagram2D>
+                    </dxc:ChartControl>
+                </StackPanel> 
+            </StackPanel>
+        </Grid>
+        <Button Content="Open" Grid.Column="1" HorizontalAlignment="Right" Margin="10" VerticalAlignment="Bottom" Width="75" Click="Button_Click"/>
+    </Grid>
+</Window>

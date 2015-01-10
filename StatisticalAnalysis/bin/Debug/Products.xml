@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ProductsDatabase xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.cpandl.com">
+  <Categories>
+    <Category Id="1" Name="Мобильные устройства и аксессуары" Description=""/>
+    <Category Id="2" Name="Ноутбуки" Description=""/>
+    <Category Id="3" Name="Планшеты" Description=""/>
+    <Category Id="4" Name="Электронные книги" Description=""/>
+    <Category Id="5" Name="Программное обеспечение" Description=""/>
+    <Category Id="6" Name="Оргтехника" Description=""/>
+    <Category Id="7" Name="Комплектующие" Description=""/>
+    <Category Id="8" Name="Компьютеры" Description=""/>
+  </Categories>
+  <Products>
+    <Product Id="10011" Name="HTC Desire 610 Dark Blue " CategoryId="1" Description=""/>
+    <Product Id="10012" Name="Acer Aspire ES1-111M-C09T (NX.MRSEU.002)" CategoryId="2" Description=""/>
+    <Product Id="10013" Name="Lenovo IdeaTab A3500 16GB Navy Blue" CategoryId="3" Description=""/>
+    <Product Id="10042" Name="Amazon Kindle Paperwhite (2013) 4Gb" CategoryId="4" Description=""/>
+    <Product Id="10023" Name="Windows 8.1 Professional 32-bit/64-bit English" CategoryId="5" Description=""/>
+    <Product Id="10001" Name="Ноутбук Lenovo G50-30 (80G0004YRK)" CategoryId="2" Description=""/>
+    <Product Id="10002" Name="Acer TravelMate TMB113-E-10174G50akk (NX.V7UPE.110)" CategoryId="2" Description=""/>
+    <Product Id="10003" Name="Asus Transformer Book T200TA (T200TA-CP001H)" CategoryId="2" Description=""/>
+    <Product Id="10004" Name="PocketBook 624 Basic Touch Grey" CategoryId="4" Description=""/>
+    <Product Id="10005" Name="Asus MeMO Pad 8 16GB Black " CategoryId="3" Description=""/>
+    <Product Id="10052" Name="CorelDRAW Graphics Suite X7 " CategoryId="5" Description=""/>
+    <Product Id="10007" Name="Apple A1432 iPad mini with Wi-Fi 16GB" CategoryId="3" Description=""/>
+  </Products>
+</ProductsDatabase>

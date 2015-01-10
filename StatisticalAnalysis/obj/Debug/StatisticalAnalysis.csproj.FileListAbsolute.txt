@@ -1,0 +1,15 @@
+D:\Work\PerforceWorkspace\denis.mihalchenko_Kerat-PC_592\StatisticalAnalysis\StatisticalAnalysis\bin\Debug\StatisticalAnalysis.exe
+D:\Work\PerforceWorkspace\denis.mihalchenko_Kerat-PC_592\StatisticalAnalysis\StatisticalAnalysis\bin\Debug\StatisticalAnalysis.pdb
+D:\Work\PerforceWorkspace\denis.mihalchenko_Kerat-PC_592\StatisticalAnalysis\StatisticalAnalysis\obj\Debug\StatisticalAnalysis.csprojResolveAssemblyReference.cache
+D:\Work\PerforceWorkspace\denis.mihalchenko_Kerat-PC_592\StatisticalAnalysis\StatisticalAnalysis\obj\Debug\MainWindow.baml
+D:\Work\PerforceWorkspace\denis.mihalchenko_Kerat-PC_592\StatisticalAnalysis\StatisticalAnalysis\obj\Debug\MainWindow.g.cs
+D:\Work\PerforceWorkspace\denis.mihalchenko_Kerat-PC_592\StatisticalAnalysis\StatisticalAnalysis\obj\Debug\App.g.cs
+D:\Work\PerforceWorkspace\denis.mihalchenko_Kerat-PC_592\StatisticalAnalysis\StatisticalAnalysis\obj\Debug\StatisticalAnalysis_MarkupCompile.cache
+D:\Work\PerforceWorkspace\denis.mihalchenko_Kerat-PC_592\StatisticalAnalysis\StatisticalAnalysis\obj\Debug\StatisticalAnalysis.g.resources
+D:\Work\PerforceWorkspace\denis.mihalchenko_Kerat-PC_592\StatisticalAnalysis\StatisticalAnalysis\obj\Debug\StatisticalAnalysis.Properties.Resources.resources
+D:\Work\PerforceWorkspace\denis.mihalchenko_Kerat-PC_592\StatisticalAnalysis\StatisticalAnalysis\obj\Debug\StatisticalAnalysis.csproj.GenerateResource.Cache
+D:\Work\PerforceWorkspace\denis.mihalchenko_Kerat-PC_592\StatisticalAnalysis\StatisticalAnalysis\obj\Debug\StatisticalAnalysis.exe
+D:\Work\PerforceWorkspace\denis.mihalchenko_Kerat-PC_592\StatisticalAnalysis\StatisticalAnalysis\obj\Debug\StatisticalAnalysis.pdb
+D:\Work\PerforceWorkspace\denis.mihalchenko_Kerat-PC_592\StatisticalAnalysis\StatisticalAnalysis\obj\Debug\StatisticalAnalysis_MarkupCompile.lref
+D:\Work\PerforceWorkspace\denis.mihalchenko_Kerat-PC_592\StatisticalAnalysis\StatisticalAnalysis\bin\Debug\Products.xml
+D:\Work\PerforceWorkspace\denis.mihalchenko_Kerat-PC_592\StatisticalAnalysis\StatisticalAnalysis\obj\Debug\StatisticalAnalysis_Content.g.cs
